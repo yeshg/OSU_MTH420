@@ -22,7 +22,6 @@ my_scatter(data(:,1),data(:,3),title,countryNames,u_hat);
 % Test on test data
 test_model_2d(testData(:,1),testData(:,3), testCountryNames, u_hat);
 
-
 %% Model 2 - gross domestic product on life satisfaction
 figure();
 title = 'Scatterplot of gross domestic product on life satisfaction';
